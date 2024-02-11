@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Will you be my Valentine, Nyamekye?</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f7d9d9;
+  }
+  #message {
+    margin-top: 30px;
+    font-size: 24px;
+  }
+  #options {
+    margin-top: 20px;
+  }
+  #yesButton, #noButton {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  #yesButton:hover, #noButton:hover {
+    background-color: #f9b3b3;
+  }
+</style>
+</head>
+<body>
+
+<h2>Hello Nyamekye,</h2>
+<p id="message">Will you be my Valentine?</p>
+
+<img src="https://www.instagram.com/p/Cpo_8gHq8RaCY9zb2LqujMIj5latKj5bmeO51s0/?igsh=MXlpNnA0aXJsYjh3" alt="Your Picture with Nyamekye" width="300">
+
+<div id="options">
+  <button id="yesButton" onclick="alert('Yay! You've made my day! I love you, Nyamekye!')">Yes</button>
+  <button id="noButton" onclick="alert('Aww, okay. Let's still make it a memorable day!')">No</button>
+</div>
+
+<audio controls autoplay loop>
+  <source src="your_love_song_url.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</body>
+</html>
